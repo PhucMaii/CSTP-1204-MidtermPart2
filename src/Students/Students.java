@@ -72,4 +72,13 @@ public class Students {
         System.out.println("Cohort: " + this.getCohort());
         System.out.println("StudentID: " + this.getStudentID());
     }
+
+    public void getStudentInfo(int course) {
+        System.out.println("Name: " + this.getName());
+        System.out.println("Email: " + this.getEmail());
+        System.out.println("Age: " + this.getAge());
+        System.out.println("Cohort: " + this.getCohort());
+        System.out.println("StudentID: " + this.getStudentID());
+        System.out.println("Their course " + course);
+    }
 }
